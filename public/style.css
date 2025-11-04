@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avance terminaciones PLV3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Avance terminaciones PLV3</h1>
+  <div id="progreso">
+    <span>Progreso: <span id="porcentaje">0</span>%</span>
+    <progress id="barra" value="0" max="100"></progress>
+  </div>
+  <div id="contenedor"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
